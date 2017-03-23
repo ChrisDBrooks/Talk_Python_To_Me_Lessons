@@ -43,7 +43,7 @@ def list_enties(data):
 # is data the same as journal_entry yes because it is positional?
 def add_entry(data):
     text = input('Type your entry, <enter> to exit: ')
-    journal.add_entry(text)
+    journal.add_entry(text, data)
     #data.append(text)
 
 
